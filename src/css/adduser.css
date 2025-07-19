@@ -1,0 +1,8 @@
+.add-user-input{
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 120px); /* Adjust width to fit button */
+
+}

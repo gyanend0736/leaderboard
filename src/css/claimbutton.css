@@ -1,0 +1,33 @@
+
+.size {
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.spin-animate {
+  animation: spin 0.8s ease;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  30% { transform: rotate(200deg); }
+  60% { transform: rotate(-100deg); }
+  100% { transform: rotate(0deg); }
+}
+.show-points {
+    margin: 40px;
+    padding: 30px 20px;
+    background-color: rgb(105, 197, 0);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+.red{
+    background-color: red;
+}
